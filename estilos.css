@@ -1,0 +1,125 @@
+.caja{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;  
+    border: 2px solid rgb(240, 237, 237);
+    width: 400px;
+    height: 540px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.secction{
+    padding: 20px;
+}
+.boton{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    border: 2px solid #ded5d5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+.logos{
+   width: 50px;
+   height: 50px; 
+   padding: 8px;
+}
+.boton p{
+    align-content: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+a:hover{
+    background-color:#62dcf5;
+}
+.lineas {
+    display: flex;
+    align-items: center;
+}
+  
+.lineas hr {
+    width: 50%;
+    background-color: rgb(221, 218, 218);
+}
+  
+.lineas > div {
+    padding: 0 10px;
+}
+.contenido{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid  #ded5d5;
+    font-size: 18px;   
+}
+.buton{
+    color:white;
+    background-color: #24d3ff;
+    width: 100%;
+    border-top:20px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: rgb(109, 49, 49);
+    }
+    h1 {
+        font-size: 24px;
+        color: #46ff56;
+    }
+    .container{
+        background-color: #b94646;
+        border: 2px solid rgb(53, 47, 47);
+        box-shadow: 5px 10px 8px #383535;
+    }
+    .buton{
+        background-color: #22a800;
+    }
+    a:hover{
+        background-color:#82ff8c;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(53, 53, 53);
+    }
+    h1 {
+        font-size: 24px;
+        color: #ffe346;
+    }
+    .container{
+        background-color: rgb(100, 100, 100);
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 5px 10px 8px #888888;
+    }
+    .buton{
+        background-color: #a13bdb;
+    }
+    a:hover{
+        background-color:#cd76ff;
+    }
+    
+}
